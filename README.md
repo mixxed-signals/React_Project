@@ -24,6 +24,3 @@ Personal React Project
 4. Create a back button to return to the previous page
 
 
-TO DO:
-1. router
-

@@ -21,9 +21,9 @@ const FactsList = ({data, onReset}) => {
   }
 
   const listItems = data.map((item, index) => (
-    //<Link to={`/fact/${index}`} key={index}>
+    <Link to={`/fact/${index + 1}`} key={index} className="customLink">
       <ItemComponent key={index} item={{ index, value: item }} />
-    //</Link>
+    </Link>
   ));
 
   return (

@@ -197,3 +197,12 @@ li::before {
   content: "✏️";
   margin-right: 10px;
 }
+
+.customLink {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set the color to your preferred value */
+}
+
+.customLink:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
