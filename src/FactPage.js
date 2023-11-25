@@ -13,14 +13,16 @@ const FactPage = ({ facts }) => {
   console.log(factIndex);
 
   return (
-    <div className="Notepad">
-      <h2>Fact {factIndex}</h2>
-      <br></br>
-      <p>"{facts[factIndex - 1]}"</p>
-      <br></br>
-      <Link to="/" className="customLink">
-      <ArrowLeftOutlined /> Back
-      </Link>
+    <div className="App">
+      <div className="Notepad">
+        <h2>Fact {factIndex}</h2>
+        <br></br>
+        <p>"{facts[factIndex - 1]}"</p>
+        <br></br>
+        <Link to="/" className="customLink">
+        <ArrowLeftOutlined /> Back
+        </Link>
+      </div>
     </div>
   );
 };
